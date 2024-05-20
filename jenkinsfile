@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Checkout'){
             steps{
-                git branch: 'main', url: 'https://github.com/itsmartpen/aws-ecr-helloworld.git'
+                git branch: 'main', url: 'https://github.com/itsmartpen/aws-ecr.git'
             }
         }
         stage('Code Build') {
